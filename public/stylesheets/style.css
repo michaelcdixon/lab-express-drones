@@ -1,8 +1,26 @@
 body {
-  padding: 50px;
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+	padding: 50px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: #fefae0;
 }
 
 a {
-  color: #00b7ff;
+	color: #00b7ff;
+}
+
+.list-group-item:nth-child(even) {
+	background: #fde2e4;
+}
+
+.list-group-item:nth-child(odd) {
+	background: #dfe7fd;
+}
+
+.droneName {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.navbar {
+	background-color: #cddafd !important;
 }
